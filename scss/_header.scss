@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: black;
+    ul{
+        display: flex;
+        gap: 5rem;
+        font-family: roboto;
+        font-size: 18px;
+        color: white;
+}
+ 
+ 
+
+}
+
+.imagen-logo{
+    width: 161px;
+    height: 55px;
+    padding-top: 10px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+
+}
+
+a{
+    color:white;
+}
+
+.imagen2{
+
+    width: 1090px;
+    height: 666px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}

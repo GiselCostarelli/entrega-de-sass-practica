@@ -1,0 +1,93 @@
+section{
+
+
+.texto1{
+    animation-name: aparecer;
+    animation-duration: 3s;
+    text-shadow: 0px 10px 10px rgb(0, 0, 0);
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 280px;
+    font-weight: bold;
+    font-family:"roboto"
+    }
+@keyframes aparecer{
+    0%{
+        opacity:0 ;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.texto2{
+    animation-name: aparecer;
+    animation-duration: 3s;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0);;
+    font-size: 34px;
+    color:#ffffff ;
+    position: absolute;
+    left: 50px;
+    top: 370px;
+    font-weight: bold;
+    font-family:"roboto" 
+}
+
+.contenedor{
+    transform:background-color;
+    font-size: 20px;
+    background-color: #4B5160;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px 10px 10px black;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    font-family:"roboto"
+    
+}  
+ .contenedor:hover{
+     background:#242A39 ;
+ }
+
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto 60%;
+    grid-template-rows: 638px
+} 
+
+}
+
+.imagen2{
+
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.imagenserv{
+    width: 350px;
+    height: 300px;
+    padding: 50px 12px 50px;
+    margin-right: 24px;
+    margin-left: 50px;
+}
+.imagenserv:hover{
+transform: scale(1.2);
+}
+.im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 0%;
+}
